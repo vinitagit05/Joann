@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JOANNV1-TESTNG" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="com.joann.utilities.TestListeners" />
+	</listeners>
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+		 	<class name="com.joann.testcases.TC_LoginTest_001" />
+			<class name="com.joann.testcases.TC_Allocation_Basics_004" />
+			<class name="com.joann.testcases.TC_Article_Selection_009" />
+			<class name="com.joann.testcases.TC_Site_Exclusion_005" /> 
+			<class name="com.joann.testcases.TC_StratergywoInputs_011" />
+			<class name="com.joann.testcases.TC_FinalizeAllocation_010" />
+			<class name="com.joann.testcases.TC_CreateAllocation_003" /> 
+ 
+
+			<!--   <class name="com.joann.testcases.TC_LoginTestDD_002" />   -->
+		</classes>
+	</test>
+</suite>

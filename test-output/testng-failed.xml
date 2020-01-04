@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JOANNV1-TESTNG]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.joann.utilities.TestListeners"/>
+  </listeners>
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.joann.testcases.TC_StratergywoInputs_011">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="stratergyScreenWoInputs"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_StratergywoInputs_011 -->
+      <class name="com.joann.testcases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_LoginTest_001 -->
+      <class name="com.joann.testcases.TC_CreateAllocation_003">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="createNewAllocation"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_CreateAllocation_003 -->
+      <class name="com.joann.testcases.TC_Article_Selection_009">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_Article_Selection_009 -->
+      <class name="com.joann.testcases.TC_FinalizeAllocation_010">
+        <methods>
+          <include name="finalizeAllocationScreen"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_FinalizeAllocation_010 -->
+      <class name="com.joann.testcases.TC_Allocation_Basics_004">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_Allocation_Basics_004 -->
+      <class name="com.joann.testcases.TC_Site_Exclusion_005">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.joann.testcases.TC_Site_Exclusion_005 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [JOANNV1-TESTNG] -->

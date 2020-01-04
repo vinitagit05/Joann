@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JOANNV1-TESTNG" duration-ms="183846" started-at="2019-12-03T07:20:55Z" finished-at="2019-12-03T07:23:59Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="183846" started-at="2019-12-03T07:20:55Z" finished-at="2019-12-03T07:23:59Z">
+      <class name="com.joann.testcases.TC_Article_Selection_009">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e]" name="setup" is-config="true" duration-ms="1247" started-at="2019-12-03T12:51:31Z" finished-at="2019-12-03T12:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="articleSelectionScreen()[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e]" name="articleSelectionScreen" duration-ms="14485" started-at="2019-12-03T12:51:32Z" finished-at="2019-12-03T12:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- articleSelectionScreen -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:51:32Z" finished-at="2019-12-03T12:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_Article_Selection_009.articleSelectionScreen() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:51:47Z" finished-at="2019-12-03T12:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=articleSelectionScreen status=SUCCESS method=TC_Article_Selection_009.articleSelectionScreen()[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_Article_Selection_009@6eebc39e]" name="tearDown" is-config="true" duration-ms="562" started-at="2019-12-03T12:51:47Z" finished-at="2019-12-03T12:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_Article_Selection_009 -->
+      <class name="com.joann.testcases.TC_Allocation_Basics_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d]" name="setup" is-config="true" duration-ms="2521" started-at="2019-12-03T12:51:11Z" finished-at="2019-12-03T12:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:51:13Z" finished-at="2019-12-03T12:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_Allocation_Basics_004.allocationBasicScreen() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="allocationBasicScreen()[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d]" name="allocationBasicScreen" duration-ms="17093" started-at="2019-12-03T12:51:13Z" finished-at="2019-12-03T12:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allocationBasicScreen -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:51:30Z" finished-at="2019-12-03T12:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allocationBasicScreen status=SUCCESS method=TC_Allocation_Basics_004.allocationBasicScreen()[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_Allocation_Basics_004@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="573" started-at="2019-12-03T12:51:30Z" finished-at="2019-12-03T12:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_Allocation_Basics_004 -->
+      <class name="com.joann.testcases.TC_CreateAllocation_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8]" name="setup" is-config="true" duration-ms="1206" started-at="2019-12-03T12:53:25Z" finished-at="2019-12-03T12:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:53:26Z" finished-at="2019-12-03T12:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_CreateAllocation_003.createNewAllocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewAllocation()[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8]" name="createNewAllocation" duration-ms="32319" started-at="2019-12-03T12:53:26Z" finished-at="2019-12-03T12:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAllocation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:53:58Z" finished-at="2019-12-03T12:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAllocation status=SUCCESS method=TC_CreateAllocation_003.createNewAllocation()[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_CreateAllocation_003@239963d8]" name="tearDown" is-config="true" duration-ms="576" started-at="2019-12-03T12:53:58Z" finished-at="2019-12-03T12:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_CreateAllocation_003 -->
+      <class name="com.joann.testcases.TC_StratergywoInputs_011">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac]" name="setup" is-config="true" duration-ms="1958" started-at="2019-12-03T12:52:06Z" finished-at="2019-12-03T12:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="stratergyScreenWoInputs()[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac]" name="stratergyScreenWoInputs" duration-ms="26941" started-at="2019-12-03T12:52:08Z" finished-at="2019-12-03T12:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratergyScreenWoInputs -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:52:08Z" finished-at="2019-12-03T12:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_StratergywoInputs_011.stratergyScreenWoInputs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:52:35Z" finished-at="2019-12-03T12:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=stratergyScreenWoInputs status=SUCCESS method=TC_StratergywoInputs_011.stratergyScreenWoInputs()[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_StratergywoInputs_011@f6c48ac]" name="tearDown" is-config="true" duration-ms="726" started-at="2019-12-03T12:52:35Z" finished-at="2019-12-03T12:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_StratergywoInputs_011 -->
+      <class name="com.joann.testcases.TC_FinalizeAllocation_010">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e]" name="setup" is-config="true" duration-ms="1786" started-at="2019-12-03T12:52:36Z" finished-at="2019-12-03T12:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:52:38Z" finished-at="2019-12-03T12:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_FinalizeAllocation_010.finalizeAllocationScreen() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="finalizeAllocationScreen()[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e]" name="finalizeAllocationScreen" duration-ms="46232" started-at="2019-12-03T12:52:38Z" finished-at="2019-12-03T12:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeAllocationScreen -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:53:24Z" finished-at="2019-12-03T12:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=finalizeAllocationScreen status=SUCCESS method=TC_FinalizeAllocation_010.finalizeAllocationScreen()[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_FinalizeAllocation_010@13deb50e]" name="tearDown" is-config="true" duration-ms="570" started-at="2019-12-03T12:53:24Z" finished-at="2019-12-03T12:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_FinalizeAllocation_010 -->
+      <class name="com.joann.testcases.TC_Site_Exclusion_005">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09]" name="setup" is-config="true" duration-ms="1295" started-at="2019-12-03T12:51:47Z" finished-at="2019-12-03T12:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:51:49Z" finished-at="2019-12-03T12:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_Site_Exclusion_005.siteExclusionScreen() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="siteExclusionScreen()[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09]" name="siteExclusionScreen" duration-ms="17319" started-at="2019-12-03T12:51:49Z" finished-at="2019-12-03T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteExclusionScreen -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-03T12:52:06Z" finished-at="2019-12-03T12:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=siteExclusionScreen status=SUCCESS method=TC_Site_Exclusion_005.siteExclusionScreen()[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_Site_Exclusion_005@464bee09]" name="tearDown" is-config="true" duration-ms="566" started-at="2019-12-03T12:52:06Z" finished-at="2019-12-03T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_Site_Exclusion_005 -->
+      <class name="com.joann.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="beforeSuite" is-config="true" duration-ms="820" started-at="2019-12-03T12:50:54Z" finished-at="2019-12-03T12:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="setup" is-config="true" duration-ms="7243" started-at="2019-12-03T12:50:55Z" finished-at="2019-12-03T12:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2019-12-03T12:51:02Z" finished-at="2019-12-03T12:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joann.testcases.TC_LoginTest_001.loginTest() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="loginTest" duration-ms="7751" started-at="2019-12-03T12:51:02Z" finished-at="2019-12-03T12:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-12-03T12:51:10Z" finished-at="2019-12-03T12:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TC_LoginTest_001.loginTest()[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.joann.testcases.TC_LoginTest_001@146ba0ac]" name="tearDown" is-config="true" duration-ms="686" started-at="2019-12-03T12:51:10Z" finished-at="2019-12-03T12:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.joann.testcases.TC_LoginTest_001 -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- JOANNV1-TESTNG -->
+</testng-results>
